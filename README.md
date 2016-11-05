@@ -1,4 +1,4 @@
-# <NAME ASSIGNMENT OF THE ASSIGNMENT> - JavaScript Assignment
+# World Development Indicators - Life Expectency - JavaScript Assignment
 
  ---- Please provide a small description about your assignment here ----
 
