@@ -1,4 +1,4 @@
-# Chicago Crimes Data - JavaScript Assignment
+# World Development Indicators - Urbanization - JavaScript Assignment
 
  ---- Please provide a small description about your assignment here ----
 
