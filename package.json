@@ -7,8 +7,21 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node node_modules/gulp/bin/gulp.js evaluate"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node node_modules/gulp/bin/gulp.js test",
+    "lint": "node node_modules/gulp/bin/gulp.js lint"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint-plugin-angular": "^1.4.1",
+    "eslint-plugin-react": "^6.5.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-htmlhint": "^0.3.1",
+    "gulp-mocha": "^3.0.1",
+    "mocha": "^3.1.2",
+    "should": "^11.1.1"
+  }
 }
