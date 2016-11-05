@@ -1,4 +1,4 @@
-# <NAME ASSIGNMENT OF THE ASSIGNMENT> - JavaScript Assignment
+# Chicago Crimes Data - JavaScript Assignment
 
  ---- Please provide a small description about your assignment here ----
 
