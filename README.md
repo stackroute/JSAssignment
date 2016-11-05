@@ -1,4 +1,4 @@
-# <NAME ASSIGNMENT OF THE ASSIGNMENT> - JavaScript Assignment
+# GDP and population data of G20 Countries - JavaScript Assignment
 
  ---- Please provide a small description about your assignment here ----
 
