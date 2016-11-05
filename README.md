@@ -1,4 +1,4 @@
-# <NAME ASSIGNMENT OF THE ASSIGNMENT> - JavaScript Assignment
+# India Census 2011 - JavaScript Assignment
 
  ---- Please provide a small description about your assignment here ----
 
