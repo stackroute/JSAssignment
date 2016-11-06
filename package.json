@@ -21,7 +21,12 @@
     "gulp-eslint": "^3.0.1",
     "gulp-htmlhint": "^0.3.1",
     "gulp-mocha": "^3.0.1",
+    "eslint-html-reporter": "^0.5.2",
+    "gulp-htmlhint-html-reporter": "^1.0.1",
     "mocha": "^3.1.2",
     "should": "^11.1.1"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.4"
   }
 }
