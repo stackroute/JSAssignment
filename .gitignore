@@ -2,6 +2,6 @@
 /evaluation
 /output
 .eslintrc.js
-.htmllintrc
+.htmlhintrc
 gulpFile.js
 Jenkinsfile
