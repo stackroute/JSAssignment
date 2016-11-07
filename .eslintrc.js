@@ -248,7 +248,7 @@ module.exports = {
         "max-statements": 0, // specify the maximum number of statement allowed in a function (off by default)
         "no-bitwise": 0, // disallow use of bitwise operators (off by default)
         "no-plusplus": 2, // disallow use of unary operators, ++ and -- (off by default)
-
+        /*
         //
         // eslint-plugin-react
         //
@@ -331,5 +331,6 @@ module.exports = {
         "angular/typecheck-object": 2, //use angular.isObject instead of typeof comparisons
         "angular/typecheck-string": 2, //use angular.isString instead of typeof comparisons
         "angular/window-service": 2, //use $window instead of window (y180)
+        */
     }
 }
