@@ -3,5 +3,6 @@
 /output
 .eslintrc.js
 .htmlhintrc
-gulpFile.js
-Jenkinsfile
+gulpfile.js
+npm-debug.log
+htmlhint-output.html
