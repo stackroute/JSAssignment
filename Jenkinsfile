@@ -13,6 +13,9 @@ node {
     stage 'Linting'
     sh "npm run lint"
 
+    stage 'Running Assignment'
+    sh "npm start --production"
+
     stage 'Testing'
     sh "npm test"
   } finally {
