@@ -20,7 +20,7 @@ gulp.task('eslint', function() {
 });
 
 gulp.task('htmlhint', function() {
-  return gulp.src(['**/*.html','!node_modules/**/*'])
+  return gulp.src(['**/*.html','!node_modules/**/*','!output/**/*'])
   .pipe(htmlhint({htmlhintrc: '.htmlhintrc'}))
   .pipe(htmlhint.reporter(htmlhintreporter, {
      filename: __dirname + 'output/htmlhint-output.html',
