@@ -2,9 +2,6 @@ node {
   stage: 'Environment Variables'
   sh "env"
 
-  stage: 'Clean'
-  sh "rm dist -rf"
-
   stage 'Checkout Repository'
   git url: '<PROVIDE YOUR REPO NAME HERE>', branch: "${env.BRANCH_NAME}"
 
@@ -12,14 +9,18 @@ node {
   sh "npm prune"
   sh "npm install"
 
-  stage 'Linting'
-  sh "npm run lint"
+  try {
+    stage 'Linting'
+    sh "npm run lint"
 
-  stage 'Testing'
-  sh "npm test"
+    stage 'Running Assignment'
+    sh "npm start --production"
 
-  stage 'Build'
-  sh "mkdir dist -p"
-  sh "cp package.json dist && cd dist && tar cvzf my-ci-project_current.tar.gz *"
-  step([$class: 'ArtifactArchiver', artifacts: 'dist/*.tar.gz', fingerprint: true])
+    stage 'Testing'
+    sh "npm test"
+  } finally {
+    stage 'Creating Report Artifact'
+    sh "mv htmlhint-output.html output/htmlhint-output.html"
+    step([$class: 'ArtifactArchiver', artifacts: 'output/*.html', fingerprint: true])
+  }
 }
